@@ -43,12 +43,13 @@ Frontend:-
     Used to persist favorite Pokémon across page refreshes
 
 
-# Challenges Faced & Solutions: -
-1] Pagination vs Search Trade-off
-Challenge: 
+# Challenges Faced & Solutions:-
+1] Pagination vs Search Trade-off :-
+Challenge:-
 Implementing true API-based pagination together with search and type filtering was challenging because the PokeAPI
 does not support server-side search by partial or part of name across paginated results.
 
+Decision & Trade-off:-
 - Due to time constraints, I chose to fetch the full Pokemon list once and perform search and filtering on the client side. 
 - This allowed:
     Instant search results
@@ -57,11 +58,11 @@ does not support server-side search by partial or part of name across paginated 
 - Pagination is applied after filtering, which keeps the UI performant while still limiting the number of Pokémon data rendered per page.
 - Implemented (20 Pokemon per page) and lazy image loading to reduce rendering cost.
 
-2] Pokemon Modal:
+2] Pokemon Modal:-
     Challenge: Pokemon details took time to load, causing blank UI.
     Solution: Added a loading spinner inside the modal and smooth open/close transitions.
 
-3] Missing Pokemon Images:
+3] Missing Pokemon Images:-
     Challenge: Some Pokemon sprites do not exist in the API.
     Solution: Handled image load failures to avoid broken image by giving default images.
 
