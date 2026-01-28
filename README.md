@@ -1,4 +1,4 @@
-# Pokedex + React App
+# Pokedex-React App
     A Pokedex web application built with React that allows users to browse Pokemon, search by name, filter by type, view details in a modal, and save favorites.,
 
 Hosted URL: https://pokedex-react-plum-two.vercel.app/
