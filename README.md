@@ -25,8 +25,7 @@ The application will be running on:
 http://localhost:5173
 
 # 🛠️ Tech Stack and reason to use them:
-Frontend:
-
+## Frontend:
 ## React :
 Used building a component-based UI
 Hooks (useState, useEffect) for state and lifecycle management
@@ -52,7 +51,7 @@ Used to persist favorite Pokémon across page refreshes
 
 ## 1] Pagination vs Search Trade-off :-
 
-## Challenge:-
+## Challenge:
 Implementing true API-based pagination together with search and type filtering was challenging because the PokeAPI
 does not support server-side search by partial or part of name across paginated results.
 
@@ -66,12 +65,12 @@ does not support server-side search by partial or part of name across paginated 
 - Implemented (20 Pokemon per page) and lazy image loading to reduce rendering cost.
 
 ## 2] Pokemon Modal:-
-- Challenge: Pokemon details took time to load, causing blank UI.
-- Solution: Added a loading spinner inside the modal and smooth open/close transitions.
+- Challenge : Pokemon details took time to load, causing blank UI.
+- Solution : Added a loading spinner inside the modal and smooth open/close transitions.
 
 ## 3] Missing Pokemon Images:-
-- Challenge: Some Pokemon sprites do not exist in the API.
-- Solution: Handled image load failures to avoid broken image by giving default images.
+- Challenge : Some Pokemon sprites do not exist in the API.
+- Solution : Handled image load failures to avoid broken image by giving default images.
 
 # Deployment:
 The app is deployed using Vercel with a simple build configuration for a Vite + React project.
