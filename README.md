@@ -25,15 +25,14 @@ The application will be running on:
 http://localhost:5173
 
 # 🛠️ Tech Stack and reason to use them:
-Frontend:- 
-**React** :
+Frontend:
 
+**React** :
     Used building a component-based UI
     Hooks (useState, useEffect) for state and lifecycle management
     Custom hooks to separate logic (favorites, filtering, data fetching)
     
-Vite
-
+Vite : 
     Fast development server and build tool.
     
 Tailwind CSS
