@@ -1,5 +1,5 @@
 # Pokedex-React App
-    A Pokedex web application built with React that allows users to browse Pokemon, search by name, filter by type, view details in a modal, and save favorites.,
+A Pokedex web application built with React that allows users to browse Pokemon, search by name, filter by type, view details in a modal, and save favorites.,
 
 Hosted URL: https://pokedex-react-plum-two.vercel.app/
 
@@ -27,24 +27,24 @@ http://localhost:5173
 # 🛠️ Tech Stack and reason to use them:
 ## Frontend:
 ## React :
-Used building a component-based UI
-Hooks (useState, useEffect) for state and lifecycle management
-Custom hooks to separate logic (favorites, filtering, data fetching)
+- Used for building a component-based UI
+- Hooks (useState, useEffect) for state and lifecycle management
+- Custom hooks to separate logic (favorites, filtering, data fetching)
     
 ## Vite : 
-Fast development server and build tool.
+- Fast development server and build tool.
     
 ## Tailwind CSS :
-Utility-first CSS for rapid UI development
-Makes responsiveness and consistent styling easier
-Reduces need for custom CSS files
+- Utility-first CSS for rapid UI development
+- Makes responsiveness and consistent styling easier
+- Reduces need for custom CSS files
     
 ## PokeAPI :
-Public REST API used to fetch Pokemon data
-Provides Pokemon list, types, images, and stats
+- Public REST API used to fetch Pokemon data
+- Provides Pokemon list, types, images, and stats
     
 ## LocalStorage :
-Used to persist favorite Pokémon across page refreshes
+- Used to persist favorite Pokémon across page refreshes
 
 
 # Challenges Faced & Solutions:-
@@ -74,6 +74,11 @@ does not support server-side search by partial or part of name across paginated 
 
 # Deployment:
 The app is deployed using Vercel with a simple build configuration for a Vite + React project.
+   
+    https://pokedex-react-plum-two.vercel.app/
 
 # Future Improvements:
-Future improvements include backend-driven search & pagination, OAuth-based authentication, richer UI animations, and SSR support using Next.js.
+- Backend-driven search and pagination  
+- OAuth-based user authentication (Google / GitHub)  
+- Richer UI animations and transitions  
+- Server-side rendering using Next.js for improved SEO and performance
