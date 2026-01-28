@@ -3,7 +3,7 @@
 
 Hosted URL: https://pokedex-react-plum-two.vercel.app/
 
-🔧 Installation & Running Locally
+# 🔧 Installation & Running Locally
 Prerequisites:
 - Node.js (v16 or higher)
 - npm
@@ -24,7 +24,7 @@ npm run dev
 The application will be running on:
 http://localhost:5173
 
-🛠️ Tech Stack and reason to use them:
+# 🛠️ Tech Stack and reason to use them:
 Frontend:- 
 - React
     Used building a component-based UI
@@ -43,7 +43,7 @@ Frontend:-
     Used to persist favorite Pokémon across page refreshes
 
 
-Challenges Faced & Solutions: -
+# Challenges Faced & Solutions: -
 1) Pagination vs Search Trade-off:
 Challenge: Implementing true API-based pagination together with search and type filtering was challenging because the PokeAPI does not support server-side search by partial or part of name across paginated results.
 
