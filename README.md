@@ -44,7 +44,7 @@ Frontend:-
 
 
 # Challenges Faced & Solutions: -
-Pagination vs Search Trade-off:
+Pagination vs Search Trade-off
 Challenge: Implementing true API-based pagination together with search and type filtering was challenging because the PokeAPI does not support server-side search by partial or part of name across paginated results.
 
 - Decision & Reasoning:
