@@ -26,7 +26,7 @@ http://localhost:5173
 
 # 🛠️ Tech Stack and reason to use them:
 Frontend:- 
-React :
+**React** :
 
     Used building a component-based UI
     Hooks (useState, useEffect) for state and lifecycle management
