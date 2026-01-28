@@ -8,18 +8,18 @@ Prerequisites:
 - Node.js (v16 or higher)
 - npm
 
-Steps to run locally:=
+# Steps to run locally:=
 # Clone the repository
-git clone https://github.com/THEDARKC0DER/pokedex-react.git
+    git clone https://github.com/THEDARKC0DER/pokedex-react.git
 
 # Go to project directory
-cd pokedex-react
+    cd pokedex-react
 
 # Install dependencies
-npm install
+    npm install
 
 # Start the development server
-npm run dev
+    npm run dev
 
 The application will be running on:
 http://localhost:5173
